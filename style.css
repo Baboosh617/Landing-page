@@ -51,10 +51,23 @@ header{
 .box{
     display: flex;
     justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 150px;
 }
 .box div{
     border: 2px solid blue;
     height: 100px;
     width: 100px;
     border-radius: 5px;
+}
+.thor{
+    padding: 50px;
+    margin: -10px;
+    background-color: #e5e7eb;
+}
+.thor p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
 }

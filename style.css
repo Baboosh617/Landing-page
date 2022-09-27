@@ -16,6 +16,12 @@ header{
 .links{
     display: flex;
 }
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 5px;
+}
 .main{
     background-color: #1f2937;
     margin: -9px;
@@ -35,20 +41,20 @@ header{
     font-size: 18px;
     color: #e5e7eb;
 }
-.links a{
-    text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
-    gap: 5px;
-}
-.box div{
-    border: 2px solid blue;
-    height: 50px;
-    width: auto;
-}
-.box h1{
+
+.head-one{
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
     text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.box div{
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
 }

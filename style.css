@@ -85,4 +85,6 @@ header{
 .para{
     float: right;
     font-size: 19px;
+    font-weight: bold;
+    margin-top: -5px;
 }

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
 header{
     font-size: 24px;
     color: #f9faf8;
@@ -14,6 +18,8 @@ header{
 .main{
     background-color: #1f2937;
     margin: -9px;
+    display: flex;
+    padding: 10px;
 }
 .main h1{
     font-size: 48px;
@@ -29,4 +35,10 @@ header{
     border: 2px solid blue;
     height: 50px;
     width: auto;
+}
+.box h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
 }

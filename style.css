@@ -11,6 +11,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: -9px;
+    padding: 18px;
 }
 .links{
     display: flex;
@@ -19,17 +20,26 @@ header{
     background-color: #1f2937;
     margin: -9px;
     display: flex;
-    padding: 10px;
+    padding: 15px;
+    justify-content: space-between;
 }
 .main h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9f8fa;
 }
+.main img{
+    padding: 18px;
+}
+.fonts p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
 .links a{
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+    gap: 5px;
 }
 .box div{
     border: 2px solid blue;

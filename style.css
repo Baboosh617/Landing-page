@@ -88,3 +88,17 @@ header{
     font-weight: bold;
     margin-top: -5px;
 }
+.call{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.all{
+    background-color: #3882f6;
+    display: flex;
+}
+.butt{
+    margin-top: 30px;
+    
+}

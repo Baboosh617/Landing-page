@@ -23,7 +23,11 @@ header{
     color: #e5e7eb;
     
 }
+.head-main{
+    background-image: url(/images/Dev\ Site.png);
+}
 .main{
+    
     background-color: #1f2937;
     margin: -9px;
     display: flex;

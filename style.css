@@ -6,8 +6,11 @@ header{
     font-size: 24px;
     color: #f9faf8;
 }
+body{
+    background-color: #E7E7E7;
+}
 .head{
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
     display: flex;
     justify-content: space-around;
     margin: -9px;
@@ -25,10 +28,15 @@ header{
 }
 .head-main{
     background-image: url(/images/Dev\ Site.png);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: -10px;
+  height: 100vh;
 }
 .main{
     
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
     margin: -9px;
     display: flex;
     padding: 15px;
